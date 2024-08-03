@@ -1,38 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.searchBar {
+ width: fit-content;
+ margin: 100px auto;
+ height: fit-content;
+ /* background-color: aquamarine; */
+ /* font-size: 25px; */
+
+}
+
+.searchBar input{
+    width: 210px;
+    /* background-color: #ea7474; */
+    height: 50px;
+    padding-left: 30px;
+    /* border: 2px solid blue; */
+    margin-right: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+.App .searchBar button {
+    height: 50px;
+    width: 130px;
+    background-color: antiquewhite;
+    border:  2px solid rgb(250, 141, 58);
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+.App .searchBar button:hover {
+    background-color: rgb(193, 250, 186);
+
+}
+.displayZone {
+    width: 360px;
+    height: 100px;
+    background-color: rgb(248, 252, 252);
+    margin: 50px auto;
+    line-height: 100px;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: 2px solid rgb(246, 246, 248);
+    box-shadow:  2px 2px 10px ;
+}
+.App button {
+    width: 360px;
+    height: 50px;
+    font-size: 1rem;
+    background-color: rgb(247, 248, 248);
+    border-radius:5px;
+    box-shadow:  2px 2px 10px ;
+
+}
 .App {
-  text-align: center;
-}
+    text-align: center;
+    width: fit-content;
+    margin: 50px auto;
+    padding: 10px 20px;
+    border: 2px solid rgb(133, 129, 129);
+    background-color: rgb(237, 236, 236);
+    border-radius: 5px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.App .btn:hover {
+    background-color: rgb(244, 205, 191);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
